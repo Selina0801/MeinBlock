@@ -1,0 +1,26 @@
+#Kopfzeile{
+    background-color: plum;
+    height: 50px;
+    text-align: center;
+    color: slateblue;
+    text-decoration: underline;
+}
+
+#Body{
+
+}
+
+#navbar{
+    text-decoration: none;
+    background-color: dimgray;
+}
+
+#navi li{
+    display:inline;
+	margin:25px;
+}
+
+#navi a{
+    text-decoration: none;
+    display:inline;
+}
