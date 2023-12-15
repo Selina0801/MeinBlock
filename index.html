@@ -19,16 +19,12 @@
     </header>
 
     <!-- Navbar -->
-      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-      <a href="#">Home</a>
-        <div class="navbar" id="navi">
-        <ul>
-            <li><a href="Beitrag 1.html">Beitrag 1</a></li>
-            <li><a href="Beitrag 2.html">Beitrag 2</a></li>
-            <li><a href="Beitrag 3.html">Beitrag 3</a></li>
-        </ul>
-        </div>
-      </nav>
+    <ul>
+      <li><a class="active">Mein Block</a></li>
+      <li><a href="Beitrag 1.html">Beitrag 1</a></li>
+      <li><a href="Beitrag 2.html">Beitrag 2</a></li>
+      <li><a href="Beitrag 3.html">Beitrag 3</a></li>
+    </ul>
 
       <!--Container-->
   <div class="container">
@@ -36,26 +32,33 @@
     <h1 id="Überschrift">Die Schweiz als Bildergalerie</h1>
     <p>Wilkommen in der wunderschönen Schweiz!</p>
 
-      <div class="row">
-   
-      <div class="col-md-3">
-        <h1>Frühling</h1>
-        <img src="Schweiz/Kirschblueten_Schweiz.jpg" width="350px" height="350px">
-      </div>
-      <div class="col-md-3">
-        <h1>Sommer</h1>
-        <img src="Schweiz/switzerland_summer.jpeg"width="350px" height="350px">
-      </div>
-
-      <div class="col-md-3">
-        <h1>Herbst</h1>
-        <img src="Schweiz/autumn_Schweiz.jpg"width="350px" height="350px">
-      </div>
-
-      <div class="col-md-3">
-        <h1>Winter</h1>
-        <img src="Schweiz/winter_Schweiz.jpg"width="350px" height="350px">
-      </div>
+    <div class="gallery">
+      <a target="_blank" href="Schweiz/Kirschblueten_Schweiz.jpg">
+        <img src="Schweiz/Kirschblueten_Schweiz.jpg" alt="Frühling" width="500" height="300">
+      </a>
+      <div class="desc">Die Schweiz im Frühing!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="Schweiz/switzerland_summer.jpeg">
+        <img src="Schweiz/switzerland_summer.jpeg" alt="Sommer" width="600" height="400">
+      </a>
+      <div class="desc">Die Schweiz im Sommer!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="Schweiz/autumn_Schweiz.jpg">
+        <img src="Schweiz/autumn_Schweiz.jpg" alt="Herbst" width="600" height="400">
+      </a>
+      <div class="desc">Die Schweiz im Herbst!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="Schweiz/winter_Schweiz.jpg">
+        <img src="Schweiz/winter_Schweiz.jpg" alt="Winter" width="600" height="400">
+      </a>
+      <div class="desc">Die Schweiz im Winter!</div>
+    </div>
 
     </div>
   </div>
